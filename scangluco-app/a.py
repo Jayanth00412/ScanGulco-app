@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyD-J2Q8zuKXfOCT5klPdc2SW6IPeRw0eOw"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize session state
@@ -400,4 +400,5 @@ def all_patients_page():
 if not st.session_state.logged_in:
     login_page()
 else:
+
     main_app()
