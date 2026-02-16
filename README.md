@@ -11,7 +11,7 @@ This project helps reduce manual errors and simplifies glucose data recording.
 ## 🛠 Technologies Used
 - Python  
 - OCR / Image Processing (if applicable)
-- 
+  
 ## 📦 Installation
 1. Clone the repository
 ```bash
